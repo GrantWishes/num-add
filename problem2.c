@@ -5,11 +5,11 @@
 #define MAX_NUM_LENGTH 10000
 
 void add_and_print(char* num1, char* num2) {
-	
+	// shit goes here
 }
 
 int main (int argc , char * argv []) {
-	FILE *file = fopen("problem3.input","r");
+	FILE *file = fopen("problem2.input","r");
 	if (file == NULL) {
 		printf("Input file not found.\n");
 		return 1;
